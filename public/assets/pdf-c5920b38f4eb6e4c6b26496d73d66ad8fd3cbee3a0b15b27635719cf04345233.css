@@ -20,6 +20,6 @@
 #top-chart{border-bottom: 1px dotted #5e5e5e;padding-top:15px; padding-bottom:10px; border-top: 1px dotted #5e5e5e;}
 #bottom-chart{padding-top:10px;}
 
-#bottom-chart, #top-chart{margin: 0 auto; width: 100%;}
-#container1{height: 350px; width: 690px;}
-#container2{height: 400px; width: 690px;}
+#container1, #container2, #bottom-chart, #top-chart{margin: 0 auto;}
+#container1{height: 350px;}
+#container2{height: 400px;}

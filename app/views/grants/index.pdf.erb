@@ -60,8 +60,7 @@ Highcharts.chart('container1', {
         type: 'area'
     },
     title: {
-        text: 'Historic Grant Spending by Strategic Priority ',
-		useHTML: true
+        text: 'Historic Grant Spending by Strategic Priority '
     },
     
     xAxis: {
@@ -127,7 +126,7 @@ Highcharts.chart('container2', {
         type: 'column'
     },
     title: {
-        text: 'Grant Money Awarded Per Year, by Strategic Result'
+        text: 'Grant Money Awarded by Strategic Result'
     },
     xAxis: {
         categories:  <%= raw @uYears %> 
@@ -144,17 +143,6 @@ Highcharts.chart('container2', {
                 color: (Highcharts.theme && Highcharts.theme.textColor) || 'gray'
             }
         }
-    },
-    legend: {
-        align: 'right',
-        x: -30,
-        verticalAlign: 'top',
-        y: 25,
-        floating: true,
-        backgroundColor: (Highcharts.theme && Highcharts.theme.background2) || 'white',
-        borderColor: '#CCC',
-        borderWidth: 1,
-        shadow: false
     },
     
     tooltip: {
